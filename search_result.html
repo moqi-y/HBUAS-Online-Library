@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>搜索结果</title>
+    <script src="lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/detail.js"></script>
+    <link rel="stylesheet" href="css/book_details.css">
+
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--头部-->
+<div class="header">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+
+            <!--            首页链接-->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand active" href="index.html">首页</a>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <!--                专题，咨询，借阅，还书，链接-->
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a> </a>
+                    </li>
+                    <li><a href="book_details.html">全部 <span class="sr-only"></span></a></li>
+                    <li>
+                        <a> </a>
+                    </li>
+                    <li><a href="lib/404/404.html">资讯</a></li>
+                    <li>
+                        <a> </a>
+                    </li>
+                    <li><a href="lib/404/404.html">借阅</a></li>
+                    <li>
+                        <a> </a>
+                    </li>
+                    <li><a href="lib/404/404.html">还书</a></li>
+                </ul>
+                <!--                <form class="navbar-form navbar-left">-->
+                <!--                    <div class="form-group">-->
+                <!--                        <input type="text" class="form-control" placeholder="三体 刘慈欣">-->
+                <!--                    </div>-->
+                <!--                    <button type="submit" class="btn btn-info">查找图书</button>-->
+                <!--                </form>-->
+                <ul class="nav navbar-nav navbar-right">
+
+                    <!--                    搜索图书功能-->
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="search_input" placeholder="输入书名">
+                        </div>
+                        <button type="submit" class="btn btn-info" id="search_btn">查找图书</button>
+                    </form>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">我的 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">登录</a></li>
+                            <li><a href="#">注册</a></li>
+                            <li><a href="#">修改资料</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">管理图书</a></li>
+                        </ul>
+                    </li>
+                    <!--                    <li class="dropdown">-->
+                    <!--                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>-->
+                    <!--                        <ul class="dropdown-menu">-->
+                    <!--                            <li><a href="#">Action</a></li>-->
+                    <!--                            <li><a href="#">Another action</a></li>-->
+                    <!--                            <li><a href="#">Something else here</a></li>-->
+                    <!--                            <li role="separator" class="divider"></li>-->
+                    <!--                            <li><a href="#">Separated link</a></li>-->
+                    <!--                        </ul>-->
+                    <!--                    </li>-->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+</div>
+
+<!--搜索结果展示-->
+<div class="show_results">
+    
+</div>
+
+
+
+
+</body>
+</html>
