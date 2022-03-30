@@ -1,0 +1,32 @@
+html body{
+    width:100%;
+    height:100%;
+    padding:0;
+}
+
+content{
+    width:100%;
+}
+.content .media img{
+    width: 200px;
+}
+
+.media{
+    width:80%;
+    margin-left: 10%;
+    padding:2% 2% 2% 0;
+    border: #e5dada 1px solid;
+}
+.book_introduce{
+    font-size: 10px;
+}
+.book_info{
+    width:100%
+}
+.book_info th {
+    width: 12%;
+    padding:0.5%
+}
+.book_info tr{
+    width:30%;
+}
